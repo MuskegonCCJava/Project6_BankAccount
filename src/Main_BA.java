@@ -4,6 +4,12 @@ public class Main_BA
 {
 	public static void main(String[] args)
 	{
+		Checking checking = new Checking(114234);
+		Savings savings = new Savings(5.0, 115512);
 		
+		checking.setBalance(200.23);
+		savings.setBalance(500.55);
+		
+		System.out.println(checking.getChecking() + "\n" + savings.getSavings());
 	}
 }
